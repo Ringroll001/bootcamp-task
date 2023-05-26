@@ -1,0 +1,133 @@
+*{
+    margin: 0 ;
+    font-family: serif;
+}
+
+header .container{
+    background-color: rgb(49, 47, 47);
+    color: aliceblue;
+    height: 55px;
+}
+.logo{
+    margin: 0 ;
+}
+.logo h1{
+    float: left;
+    margin-left: 50px;
+}
+nav{
+    margin: 0;
+}
+ul{
+    list-style: none;
+    display: flex;
+    float: right;
+    margin-right: 70px;
+}
+li{
+    margin: 10px 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.banner h2{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+   top: 50%;
+   left: 50%;
+   font-size: 60px;
+   padding: 200px;
+}
+
+.banner {
+    width: 100%;
+    height: 400px;
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*exhibition*/
+.exhibitions{
+    margin: 20px 0;
+    text-align: center;
+}
+.exhibitions h2{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.exhibition-item{
+    width: 200px;
+    display: inline-block;
+    margin: 10px ;
+}
+  .exhibition-item img{
+    width: 100%;
+    height: auto;
+}
+
+.exhibition-item p{
+    font-size: 14px;
+    margin-top: 10px;
+
+}
+
+.artist-profile{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.artist-profile img{
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.artist-profile p{
+    font-weight: 900;
+}
+/*contact form*/
+.contact-form{
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+}
+.contact-form input,
+.contact-form textarea{
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button{
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+}
+.contact-form h2{
+    padding: 40px;
+}
+/*footer*/
+footer{
+    text-align: center;
+    background-color: #333;
+    color:white;
+}
+
+footer p{
+    padding: 20px 0 ;
+}
+
+
+
+
+
+
+
+
+
+
